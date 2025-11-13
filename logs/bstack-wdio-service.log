@@ -1,0 +1,194 @@
+[90m2025-11-13T03:16:10.231Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service started with id: da6d08fc-1e93-4631-9d27-10aadfee4230
+[90m2025-11-13T03:16:10.231Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _options data: {}
+[90m2025-11-13T03:16:10.231Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m webdriver capabilities data: [{"platformName":"Android","appium:platformVersion":"15.0","appium:deviceName":"Samsung Galaxy S25 Ultra","appium:automationName":"UIAutomator2","appium:app":"bs://97650ec227f384d2ab4a66d3cf1530985f8dc70a","appium:autoGrantPermissions":true}]
+[90m2025-11-13T03:16:10.231Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _config data: {"rootDir":"/Users/risajoyfulguirinas/wdio-appium/config","specs":["../test/specs/android/add-note-screen.spec.js"],"suites":{},"exclude":[],"capabilities":[],"logLevel":"info","logLevels":{},"groupLogsByTestSpec":false,"excludeDriverLogs":[],"bail":0,"waitforInterval":100,"waitforTimeout":10000,"framework":"mocha","reporters":["spec"],"services":["browserstack"],"maxInstances":10,"maxInstancesPerCapability":100,"injectGlobals":true,"filesToWatch":[],"connectionRetryTimeout":120000,"connectionRetryCount":3,"execArgv":[],"runnerEnv":{"FORCE_COLOR":"1"},"runner":"local","shard":{"current":1,"total":1},"specFileRetries":0,"specFileRetriesDelay":0,"specFileRetriesDeferred":false,"autoAssertOnTestEnd":true,"reporterSyncInterval":100,"reporterSyncTimeout":5000,"cucumberFeaturesWithLineNumbers":[],"mochaOpts":{"timeout":60000,"ui":"bdd"},"jasmineOpts":{"defaultTimeoutInterval":10000},"cucumberOpts":{"timeout":10000},"onPrepare":[],"onWorkerStart":[],"onWorkerEnd":[],"before":[],"beforeSession":[],"beforeSuite":[],"beforeHook":[],"beforeTest":[],"beforeCommand":[],"afterCommand":[],"afterTest":[],"afterHook":[],"afterSuite":[],"afterSession":[],"after":[],"onComplete":[],"onReload":[],"beforeAssertion":[],"afterAssertion":[],"beforeFeature":[],"beforeScenario":[],"beforeStep":[],"afterStep":[],"afterScenario":[],"afterFeature":[],"_":["config/wdio.android.bs.conf.js","config/wdio.android.bs.conf.js"],"$0":"/Users/risajoyfulguirinas/wdio-appium/node_modules/.bin/wdio","user":"risajoyfulguirin_aSrD4g","key":"C8KA8XwzYgkjZhrTU5zi"}
+[90m2025-11-13T03:16:10.233Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestAttempted',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    sdkRunId: 'da6d08fc-1e93-4631-9d27-10aadfee4230',
+    testhub_uuid: undefined,
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.19.2',
+    language: 'WebdriverIO',
+    languageVersion: 'v25.1.0',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    os: 'Darwin',
+    hostname: 'Risas-MacBook-Air.local',
+    productMap: {
+      observability: true,
+      accessibility: null,
+      percy: false,
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'automate' ],
+    framework: 'mocha'
+  }
+}
+[90m2025-11-13T03:16:10.800Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2025-11-13T03:16:10.800Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2025-11-13T03:16:10.800Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2025-11-13T03:16:10.800Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2025-11-13T03:16:10.801Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2025-11-13T03:16:13.047Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"accessibility":null,"automate":{"success":true,"options":{"allow_screenshots":true},"code":null,"errors":null,"error_trace_id":null},"turboscale":null,"build_hashed_id":"no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDM0MTYwNCIsImdyb3VwX2lkIjoxMDI1MTQ1OCwidXNlcl9pZCI6MTAzNDE2MDQsImJ1aWxkX2hhc2hlZF9pZCI6Im5vNHdidWN6NGNkMXpibmdvd2Znd2tvbWtwaWt0dTU2ZWlmemkzeHMiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IndkaW8tYXBwaXVtIiwicHJvZHVjdF9tYXAiOiJ7XCJvYnNlcnZhYmlsaXR5XCI6dHJ1ZSxcImF1dG9tYXRlXCI6dHJ1ZSxcImNhZFwiOnRydWUsXCJvcmlnaW5Gcm9tUHJvZHVjdE1hcFwiOlwiQXV0b21hdGVcIixcImJzdGFja0F1dG9tYXRpb25cIjp0cnVlLFwibm9uU0RLXCI6ZmFsc2UsXCJhY2Nlc3NpYmlsaXR5QXV0b0VuYWJsZWRcIjp0cnVlfSIsImdycl9yZWdpb24iOiIiLCJpc19sb3dfdm9sdW1lIjpmYWxzZSwiaXNfbGNuY19ldmVudCI6ZmFsc2UsInNpZ25pbmdfa2V5X2hhc2giOiIzN2MxMTMxZTRiMmU3NDNjNzY2ZTFkNzBiZjVmMmI1N2RjNjliMTk1ZDMwMGUzMmFlOGQwMjMxMjBhNGE2ZDk3IiwiaWF0IjoxNzYzMDAzNzcyLCJleHAiOjE3NjMzNDkzNzJ9.1ONT7EvpJgENb0BeYLGGSP_huql0zHZE6mIgbtbZaoY","discard_build":null,"app_automate":null}
+[90m2025-11-13T03:16:13.047Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Testhub started with id: no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs
+[90m2025-11-13T03:16:13.048Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2025-11-13T03:16:29.197Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Skipping method: Console, exists: true, type: function
+[90m2025-11-13T03:16:29.459Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/ca7beecc872f70c4a81fb6f08fb5f07fb063cd44.json
+[90m2025-11-13T03:16:31.342Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/cdfb27c61f078348e5ce96cdb7645b47e8e69d71/sessions/ca7beecc872f70c4a81fb6f08fb5f07fb063cd44
+[90m2025-11-13T03:16:31.346Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId ca7beecc872f70c4a81fb6f08fb5f07fb063cd44
+[90m2025-11-13T03:16:31.346Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/ca7beecc872f70c4a81fb6f08fb5f07fb063cd44.json with request body: 
+[90m2025-11-13T03:16:31.933Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId ca7beecc872f70c4a81fb6f08fb5f07fb063cd44
+[90m2025-11-13T03:16:31.933Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/ca7beecc872f70c4a81fb6f08fb5f07fb063cd44.json with request body: 
+[90m2025-11-13T03:16:32.595Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s25 ultra","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15.0"},"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"RFCY100M9TR","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15","deviceUDID":"RFCY100M9TR","deviceApiLevel":35,"deviceScreenSize":"1080x2340","deviceScreenDensity":450,"deviceModel":"SM-S938B","deviceManufacturer":"samsung","pixelRatio":2.8125,"statBarHeight":85,"viewportRect":{"left":0,"top":85,"width":1080,"height":2255}}
+[90m2025-11-13T03:16:32.595Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"15.0","appium:deviceName":"Samsung Galaxy S25 Ultra","appium:automationName":"UIAutomator2","appium:app":"bs://97650ec227f384d2ab4a66d3cf1530985f8dc70a","appium:autoGrantPermissions":true,"bstack:options":{"wdioService":"9.19.2","testhubBuildUuid":"no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2025-11-13T03:16:32.595Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2025-11-13T03:16:32.595Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-13T03:16:32.994Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-13T03:16:33.166Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-11-13T03:16:34.373Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-11-13T03:16:34.478Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2025-11-13T03:16:34.480Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
+[90m2025-11-13T03:16:34.480Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s25 ultra","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15.0"},"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"RFCY100M9TR","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15","deviceUDID":"RFCY100M9TR","deviceApiLevel":35,"deviceScreenSize":"1080x2340","deviceScreenDensity":450,"deviceModel":"SM-S938B","deviceManufacturer":"samsung","pixelRatio":2.8125,"statBarHeight":85,"viewportRect":{"left":0,"top":85,"width":1080,"height":2255}}
+[90m2025-11-13T03:16:34.480Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"15.0","appium:deviceName":"Samsung Galaxy S25 Ultra","appium:automationName":"UIAutomator2","appium:app":"bs://97650ec227f384d2ab4a66d3cf1530985f8dc70a","appium:autoGrantPermissions":true,"bstack:options":{"wdioService":"9.19.2","testhubBuildUuid":"no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2025-11-13T03:16:34.480Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2025-11-13T03:16:34.480Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2025-11-13T03:16:34.482Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId ca7beecc872f70c4a81fb6f08fb5f07fb063cd44
+[90m2025-11-13T03:16:34.482Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/ca7beecc872f70c4a81fb6f08fb5f07fb063cd44.json with request body: 
+[90m2025-11-13T03:16:34.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 6, Queue length after removal = 0
+[90m2025-11-13T03:16:34.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-13T03:16:34.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 6
+[90m2025-11-13T03:16:35.143Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s25 ultra","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15.0"},"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"RFCY100M9TR","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15","deviceUDID":"RFCY100M9TR","deviceApiLevel":35,"deviceScreenSize":"1080x2340","deviceScreenDensity":450,"deviceModel":"SM-S938B","deviceManufacturer":"samsung","pixelRatio":2.8125,"statBarHeight":85,"viewportRect":{"left":0,"top":85,"width":1080,"height":2255}}
+[90m2025-11-13T03:16:35.143Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"15.0","appium:deviceName":"Samsung Galaxy S25 Ultra","appium:automationName":"UIAutomator2","appium:app":"bs://97650ec227f384d2ab4a66d3cf1530985f8dc70a","appium:autoGrantPermissions":true,"bstack:options":{"wdioService":"9.19.2","testhubBuildUuid":"no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2025-11-13T03:16:35.143Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2025-11-13T03:16:35.143Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-13T03:16:35.262Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-13T03:16:35.429Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-11-13T03:16:36.121Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-11-13T03:16:36.171Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-13T03:16:36.171Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 6
+[90m2025-11-13T03:16:36.597Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
+[90m2025-11-13T03:16:36.597Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-13T03:16:36.597Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
+[90m2025-11-13T03:16:36.904Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-13T03:16:36.904Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
+[90m2025-11-13T03:16:37.527Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-13T03:16:37.637Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-13T03:16:37.720Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-11-13T03:16:37.833Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-11-13T03:16:37.914Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2025-11-13T03:16:38.418Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2025-11-13T03:16:38.598Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 6, Queue length after removal = 0
+[90m2025-11-13T03:16:38.598Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-13T03:16:38.599Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 6
+[90m2025-11-13T03:16:38.940Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-13T03:16:38.940Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 6
+[90m2025-11-13T03:16:38.970Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-13T03:16:39.051Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-13T03:16:39.709Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-11-13T03:16:39.756Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-11-13T03:16:40.601Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
+[90m2025-11-13T03:16:40.601Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-13T03:16:40.601Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
+[90m2025-11-13T03:16:40.617Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-13T03:16:40.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-11-13T03:16:40.925Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-13T03:16:40.925Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
+[90m2025-11-13T03:16:41.347Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-11-13T03:16:41.428Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-11-13T03:16:41.532Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2025-11-13T03:16:41.607Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2025-11-13T03:16:41.608Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
+[90m2025-11-13T03:16:41.609Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s25 ultra","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15.0"},"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"RFCY100M9TR","chromedriverPorts":[[18100,18110]],"automationName":"uiautomator2","systemPort":8200,"autoGrantPermissions":true,"bundleID":"com.socialnmobile.dictapps.notepad.color.note","bundleId":"com.socialnmobile.dictapps.notepad.color.note","skipServerInstallation":true,"udid":"RFCY100M9TR","appPackage":"com.socialnmobile.dictapps.notepad.color.note","appActivity":"com.socialnmobile.colornote.activity.Main","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"15","deviceUDID":"RFCY100M9TR","deviceApiLevel":35,"deviceScreenSize":"1080x2340","deviceScreenDensity":450,"deviceModel":"SM-S938B","deviceManufacturer":"samsung","pixelRatio":2.8125,"statBarHeight":85,"viewportRect":{"left":0,"top":85,"width":1080,"height":2255}}
+[90m2025-11-13T03:16:41.609Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"15.0","appium:deviceName":"Samsung Galaxy S25 Ultra","appium:automationName":"UIAutomator2","appium:app":"bs://97650ec227f384d2ab4a66d3cf1530985f8dc70a","appium:autoGrantPermissions":true,"bstack:options":{"wdioService":"9.19.2","testhubBuildUuid":"no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2025-11-13T03:16:41.609Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2025-11-13T03:16:41.609Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2025-11-13T03:16:41.611Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId ca7beecc872f70c4a81fb6f08fb5f07fb063cd44
+[90m2025-11-13T03:16:41.612Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/ca7beecc872f70c4a81fb6f08fb5f07fb063cd44.json with request body: 
+[90m2025-11-13T03:16:42.602Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 7, Queue length after removal = 0
+[90m2025-11-13T03:16:42.602Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-13T03:16:42.602Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 7
+[90m2025-11-13T03:16:42.935Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-11-13T03:16:42.935Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 7
+[90m2025-11-13T03:16:43.355Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-11-13T03:16:43.355Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2025-11-13T03:16:43.355Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2025-11-13T03:16:43.355Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2025-11-13T03:16:43.355Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-11-13T03:16:44.680Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-11-13T03:16:44.680Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2025-11-13T03:16:44.680Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2025-11-13T03:16:44.680Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-11-13T03:16:44.681Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2025-11-13T03:16:45.066Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2025-11-13T03:16:45.066Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2025-11-13T03:16:46.739Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
+[90m2025-11-13T03:16:46.741Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service run ended for id: da6d08fc-1e93-4631-9d27-10aadfee4230 testhub id: no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs
+[90m2025-11-13T03:16:46.742Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-13240.json
+[90m2025-11-13T03:16:46.743Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    sdkRunId: 'da6d08fc-1e93-4631-9d27-10aadfee4230',
+    testhub_uuid: 'no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs',
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.19.2',
+    language: 'WebdriverIO',
+    languageVersion: 'v25.1.0',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    os: 'Darwin',
+    hostname: 'Risas-MacBook-Air.local',
+    productMap: {
+      observability: true,
+      accessibility: null,
+      percy: false,
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'automate' ],
+    framework: 'mocha',
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: false,
+        buildHashedId: 'no4wbucz4cd1zbngowfgwkomkpiktu56eifzi3xs',
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: { isTriggered: true, status: 'success', error: undefined }
+          },
+          testEvents: {
+            started: { triggeredCount: 2, sentCount: 2, failedCount: 0 },
+            finished: { triggeredCount: 2, sentCount: 2, failedCount: 0 },
+            passed: { triggeredCount: 2, sentCount: 2, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: {
+            triggeredCount: 23,
+            sentCount: 23,
+            failedCount: 0,
+            http: { triggeredCount: 23, sentCount: 23, failedCount: 0 }
+          },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    }
+  }
+}
+[90m2025-11-13T03:16:47.205Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2025-11-13T03:16:47.205Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2025-11-13T03:16:49.003Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Upload response: {
+  "status": "failed",
+  "message": "File not attached. Visit https://www.browserstack.com/docs/test-observability/quick-start/junit-reports for more details."
+}
+[90m2025-11-13T03:16:50.609Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Successfully uploaded performance events Bravo
